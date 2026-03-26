@@ -1,0 +1,15 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/Growth-Kinetics/DiffMem",
+  "@type": "gh:Repository",
+  "gh:name": "DiffMem",
+  "gh:owner": "Growth-Kinetics",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/Growth-Kinetics/DiffMem/commit/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf",
+      "git:hexsha": "8c1ef82af6fee8bf0e2d850095876efbdd7dfecf",
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-03-26T06:34:42.397618+00:00"
+    }
+  ]
+}
