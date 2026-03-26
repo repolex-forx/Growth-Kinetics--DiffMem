@@ -42,9 +42,66 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 2325
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf.nq.gz",
+      "repolex:graphFileSize": 1089538
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf.nq.gz",
+      "repolex:graphFileSize": 5464560
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf.nq.gz",
+      "repolex:graphFileSize": 235360
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf.nq.gz",
+      "repolex:graphFileSize": 796
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-26T06:34:42.397573+00:00",
-  "repolex:parserVersion": "0.0.7"
+  "repolex:parserVersion": "0.0.7",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tiangolo/fastapi",
+      "repolex:packageName": "fastapi",
+      "repolex:packageVersion": "0.99.1",
+      "git:hexsha": "dd4e78ca7b09abdf0d4646fe4697316c021a8b2e"
+    },
+    {
+      "@id": "https://repolex.ai/r/openai/openai-python",
+      "repolex:packageName": "openai",
+      "repolex:packageVersion": "2.9.0",
+      "git:hexsha": "dc7602151b9042891ccd5042c7be3881337368e5"
+    },
+    {
+      "@id": "https://repolex.ai/r/encode/uvicorn",
+      "repolex:packageName": "uvicorn",
+      "repolex:packageVersion": "0.9.1",
+      "git:hexsha": "94aec709ce6dcd5fb9a78f33caa0c593161c48a8"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "repolex:packageVersion": "2.9.2",
+      "git:hexsha": "7cedbfb03df82ac55c844c97e6f975359cb51bb9"
+    },
+    {
+      "@id": "https://repolex.ai/r/davidhalter/jedi",
+      "repolex:packageName": "jedi",
+      "repolex:packageVersion": "0.9.0",
+      "git:hexsha": "66557903ae4c1174eb437a8feeeb718e69d5fa3a",
+      "git:tagName": "v0.9.0"
+    }
+  ]
 }

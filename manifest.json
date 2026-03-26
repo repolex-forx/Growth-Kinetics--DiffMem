@@ -48,6 +48,50 @@
         "blob/75ec364656330985ce0b261e2fbfedba44f5b133.nq.gz",
         "blob/077e67eb7af1e6956d0dbeac997cc22a9a1599b5.nq.gz",
         "blob/65f4cc78d9885160c2df1157bc7a808bb2b1a58f.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf.nq.gz",
+      "repolex": "aggregate/repolex/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf.nq.gz",
+      "dep": "dep/8c1ef82af6fee8bf0e2d850095876efbdd7dfecf.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "fastapi",
+          "packageVersion": "0.99.1",
+          "githubOrg": "tiangolo",
+          "githubRepo": "fastapi",
+          "githubCommit": "dd4e78ca7b09abdf0d4646fe4697316c021a8b2e"
+        },
+        {
+          "packageName": "openai",
+          "packageVersion": "2.9.0",
+          "githubOrg": "openai",
+          "githubRepo": "openai-python",
+          "githubCommit": "dc7602151b9042891ccd5042c7be3881337368e5"
+        },
+        {
+          "packageName": "uvicorn",
+          "packageVersion": "0.9.1",
+          "githubOrg": "encode",
+          "githubRepo": "uvicorn",
+          "githubCommit": "94aec709ce6dcd5fb9a78f33caa0c593161c48a8"
+        },
+        {
+          "packageName": "pydantic",
+          "packageVersion": "2.9.2",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "7cedbfb03df82ac55c844c97e6f975359cb51bb9"
+        },
+        {
+          "packageName": "jedi",
+          "packageVersion": "0.9.0",
+          "githubOrg": "davidhalter",
+          "githubRepo": "jedi",
+          "githubCommit": "66557903ae4c1174eb437a8feeeb718e69d5fa3a",
+          "githubTag": "v0.9.0"
+        }
       ]
     }
   ],
